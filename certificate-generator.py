@@ -6,8 +6,8 @@ template_path = "certificate_template.png"  # Path to your PNG certificate templ
 names_file = "names.txt"  # Path to the text file with names
 output_folder = "certificates/"  # Folder to save generated certificates
 
-# Font settings
-font_path = os.path.expanduser("~/certificate-generator/PinyonScript-Regular.ttf")  # Use $HOME dynamically
+# Font setting
+font_path = os.path.expanduser("~/certificate/PinyonScript-Regular.ttf")
 font_size = 78.3
 
 # Text placement on the certificate (adjust based on your template)
